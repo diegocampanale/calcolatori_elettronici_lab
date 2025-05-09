@@ -24,7 +24,7 @@
             ciclo2:
                 li a0,42
                 li a7,11
-               ecall
+                ecall
                 
                 addi s0, s0, 1
                 bgt s0, t0, end_ciclo2
